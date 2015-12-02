@@ -1,0 +1,24 @@
+<html xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:jsf="http://xmlns.jcp.org/jsf">
+<h:body>
+	<h:form>
+		<div>
+			<h:outputLabel>Title</h:outputLabel>
+			<h:inputText value="#{adminBookBean.book.title}" />
+		</div>
+		<div>
+			<h:outputLabel>Description</h:outputLabel>
+			<h:inputTextarea cols="20" rows="10" value="#{adminBookBean.book.description}"/>
+		</div>
+		<div>
+			<h:outputLabel>Number of pages</h:outputLabel>
+			<h:inputText value="#{adminBookBean.book.numberOfPages}"/>
+		</div>
+		<div>
+			<h:outputLabel>Price</h:outputLabel>
+			<h:inputText value="#{adminBookBean.book.price}"/>
+		</div>
+		<h:commandButton value="Save" action="#{adminBookBean.save}" />
+	</h:form>
+</h:body>
+</html>
