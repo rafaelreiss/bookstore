@@ -13,7 +13,7 @@
 			<property name="hibernate.hbm2dll.auto" value="update" />
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />
-			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL82Dialect" />
 		</properties>
 	</persistence-unit>
 
